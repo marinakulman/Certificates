@@ -3,21 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <title>My Certificates</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .cert-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .cert-item {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .cert-item:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cert-item a {
+      text-decoration: none;
+      color: #2980b9;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .cert-item a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Certificates</h1>
 
-  <ul>
-    <li>
+  <h1>My Certificates</h1>
+
+  <ul class="cert-list">
+    <li class="cert-item">
       <a href="Certificate-Data_Analytics_ICDL_Profile_Certificate.pdf" target="_blank">
-        Data Analytics Certificate
+        📄 Data Analytics & ICDL Profile Certificate
       </a>
     </li>
-    <li>
+    <li class="cert-item">
       <a href="Certificate-Professional_English_and_Cultural.pdf" target="_blank">
-        Professional English Certificate
+        📄 Professional English and Cultural Certificate
       </a>
     </li>
   </ul>
+
 </body>
 </html>
